@@ -18,7 +18,7 @@ logger = logging.getLogger(__name__)
 # URL сервера — замени YOUR-APP на реальное имя после деплоя на Render
 SERVER_URL = os.environ.get(
     "RELAY_SERVER_URL",
-    "wss://YOUR-APP.onrender.com/ws/receive"
+    "wss://test-message-xc4m.onrender.com/ws/receive"
 )
 
 # Настройки отображения
