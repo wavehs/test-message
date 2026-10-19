@@ -24,5 +24,8 @@ pip install -r requirements.txt
 echo [2/2] Запуск получателя...
 echo.
 python receive.py
-
-pause
+if %errorlevel% neq 0 (
+    echo.
+    echo [Программа завершилась с ошибкой]
+    pause
+)
